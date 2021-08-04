@@ -1,0 +1,26 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* players blog style  */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3px;
+
+}
+.player{
+    display: grid;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 800px;
+    padding: 30px;
+}
+.player img{
+    width: 400px;
+    height: 400px;
+}
